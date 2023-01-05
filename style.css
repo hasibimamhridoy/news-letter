@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+
+.header-container{
+    background-color: #FFF5F9;
+    width: 100%;
+    overflow: hidden;
+    position: fixed ;
+    
+}
+
+/*Nav one*/
+nav .logo{
+    width: 200px;
+    height: 65px;
+    
+
+}
+
+.nav-container-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 10px;
+    position: fixed relative;
+    width: 100%;
+    background-color: #FFF5F9;
+
+}
+
+nav li{
+
+    list-style: none;
+}
+
+nav .logo-container{
+    display: flex;
+    align-items: center;
+
+}
+
+nav .logo-container p{
+    font-size: 18px;
+    color: grey;
+    margin-left: 30px;
+
+}
+
+
+
+nav .menu-item{
+    display: flex;
+    margin: auto
+}
+
+nav .menu-item-container{
+    display: flex;
+}
+
+nav .national-tv{
+    background-color: #09c040;
+    margin: auto 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #FFF5F9;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+nav .menu-item .item{
+    padding: 0px 20px;
+}
+
+/*Nav One done*/
+
+nav .nav-two{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    background: #0C1765;
+
+    
+    
+    
+}
+nav .menu-item-two{
+
+    font-size: 15px;
+    padding: 10px ;
+    color: #FFF5F9;
+
+
+}
+
+
+nav li{
+    cursor: pointer;
+    color: #0C1765;
+}
+
+nav .logo{
+    cursor: pointer;
+}
+
+nav .menu-item-two:hover{
+    background-color: #09c040;
+    color: #0C1765;
+}
+
+/*<!--Header Nav Section has been end-->*/
+
+
+
+
+/*Banner -1 */
+.header-banner-container-one{
+    display: flex;
+    padding: 77px;
+    background-color: #FFF5F9;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+
+
+.header-banner-container-one .important-text-one{
+    margin-top: 140px;
+    margin-bottom: 29px;
+    font-size: 70px;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+
+.banner-title{
+    background-color: #0C1765;
+    font-size: 20px;
+    padding: 6px 30px;
+    color: #FFF5F9;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.header-banner-container-one img{
+    margin-top: 150px;
+    margin-right: 77px;
+    
+}
+
+
+
+
+/*Banner -2 */
+.header-banner-container-two{
+    display: flex;
+    padding: 77px;
+    background-color: #FFF5F9;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+
+.header-banner-container-two .banner-desc{
+    
+    background-color:white;
+    padding: 30px 30px;
+    margin: 30px 120px 0px 120px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+
+    .header-banner-container-two .banner-desc p{
+    
+        font-weight: 200;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: gray;
+        
+        }
+
+
+.header-banner-container-two .important-text{
+    margin-top: 140px;
+    margin-bottom: 29px;
+    font-size: 50px;
+    
+}
+
+.header-banner-container-two img{
+    margin-top: 150px;
+    margin-right: 77px;
+    
+}
+
+
+/* Main  Quick Highlights*/
+
+/*1st*/
+
+
+
+
+
+
+/*2nd*/
+main{
+    background-color: #FFF5F9;
+}
+
+.highlights-flex-container h1{
+    text-align: center;
+    padding: 70px;
+    font-size: 50px;
+}
+
+.highlights-flex-container{
+    text-align: center;
+    padding: 0px 130px;
+   
+    
+}
+
+
+.highlights-flex{
+    display: flex;
+    text-align: center;
+    padding: 15px 50px;
+    margin-top: 60px;
+    
+}
+
+
+
+.h-flex-item{
+    background-color: antiquewhite;
+    margin: 10px 30px; 
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+}
+
+.h-flex-item p ,h2{
+    margin: 20px;
+    text-align: start;
+}
+
+.h-flex-item p {
+    color: gray;
+    font-size: 19px;
+    font-family: serif;
+}
+
+
+/*Footer*/
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.foot-item{
+    padding: 10px 0px ;
+    text-align: justify;
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+
+.foot-item-container h4{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.foot-item:hover{
+    text-decoration: underline;
+}
+
+.developed{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
